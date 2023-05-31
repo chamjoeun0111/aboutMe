@@ -1,0 +1,62 @@
+.detailIntro {
+    width: 70%;
+    height: 100%;
+}
+
+.up {
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+.pic {
+    width: 40%;
+    height: 100%;
+    background-image: url('../image/white_me.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background: linear-gradient(to right, rgba(0, 0, 234, 0.5), rgba(62, 62, 222, 0.5), rgba(126, 126, 209, 0.5)); */
+}
+
+.name {
+    width: 73%;
+    height: 100%;
+    font-size: 6rem;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+}
+
+.name h1 {
+    background: linear-gradient(to right, rgba(0, 0, 234, 0.3), rgba(0, 0, 234, 0.1), rgba(0, 0, 234, 0.1));
+}
+
+.down {
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+
+.connect {
+    width: 34%;
+    height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.connect li ol {
+    padding: 1rem 0 0 0;
+    font-size: 1.4rem;
+}
+
+.detailContent {
+    width: 70%;
+    height: 100%;
+    font-size: 2.2rem;
+    color: blue;
+    font-weight: 100;
+    line-height: 55px;
+}
