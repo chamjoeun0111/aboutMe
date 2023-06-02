@@ -45,11 +45,13 @@
 
 li {
     list-style: none;
+    text-shadow: none;
 }
 
 .connect li ol {
     padding: 1rem 0 0 0;
     font-size: 1.4rem;
+    text-shadow: none;
 }
 
 .detailContent {
@@ -59,4 +61,5 @@ li {
     color: blue;
     font-weight: 100;
     line-height: 55px;
+    text-shadow: none;
 }
